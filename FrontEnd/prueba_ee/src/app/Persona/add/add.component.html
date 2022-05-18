@@ -1,0 +1,52 @@
+<div class="container col-md-6">
+  <div class="card">
+    <div class="card-header">
+      <h3>Agregar Personas</h3>
+    </div>
+    <div class="card-body">
+      <form action="">
+        <div class="form-group">
+          <label for="">Cedula:</label>
+          <input [(ngModel)]="persona.cedula" name="cedula" type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="">Primer nombre:</label>
+          <input [(ngModel)]="persona.primernombre" name="primernombre" type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="">Segundo nombre:</label>
+          <input [(ngModel)]="persona.segundonombre" name="segundonombre" type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="">Primer apellido:</label>
+          <input [(ngModel)]="persona.primerapellido" name="primerapellido" type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="">Segundo apellido:</label>
+          <input [(ngModel)]="persona.segundoapellido" name="segundoapellido" type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="">Clave:</label>
+          <input [(ngModel)]="persona.clave" name="clave" type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="">Email:</label>
+          <input [(ngModel)]="persona.email" name="email" type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="">Nit empresa:</label>
+          <input [(ngModel)]="persona.nitempresa" name="nitempresa" type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="">Rol:</label>
+          <input [(ngModel)]="persona.rol" name="rol" type="text" class="form-control">
+        </div>
+        <div class="form-group">
+          <label for="">Estado:</label>
+          <input [(ngModel)]="persona.estado" name="estado" type="text" class="form-control">
+        </div>
+        <button (click)="Guardar()" class="btn btn-danger">Guardar</button>
+      </form>
+    </div>
+  </div>
+</div>
